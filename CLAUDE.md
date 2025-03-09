@@ -32,3 +32,13 @@ cd frontend && npm run preview
 - RUN linting and tests for significant changes
 - GIT add and commit all changed files
 - ENSURE newline at end of files
+
+## Documentation Rules
+- PROMPT_HISTORY files are numbered sequentially (001, 002, etc.)
+- CHECK file length BEFORE adding to prompt history
+- CREATE new file when current exceeds 150 lines
+- ALWAYS update prompt history with:
+  1. Task heading (###)
+  2. User prompt in "User Prompt:" section
+  3. Claude's actions in "Claude:" section
+- UPDATE README.md for significant features

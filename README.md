@@ -7,6 +7,8 @@ A simple 3D web game using Three.js. This is a browser-based 3D dogfighting game
 The project is organized into separate frontend and (future) backend components:
 
 - `/frontend/`: Contains the Three.js web application
+- `/docs/`: Documentation files
+  - `/prompt_history/`: Records of development prompts and actions
 - Future backend will be added as needed
 
 ## Project Setup
@@ -38,6 +40,13 @@ cd frontend && npm run build
 # Preview the production build
 cd frontend && npm run preview
 ```
+
+## Documentation
+
+The project maintains documentation of the development process:
+- Prompt history files in `/docs/prompt_history/` record the development conversation
+- Each file is numbered sequentially and contains user prompts and Claude's actions
+- New history files are created when the current one exceeds 150 lines
 
 ## License
 
