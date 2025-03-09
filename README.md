@@ -2,6 +2,20 @@
 
 A simple 3D web game using Three.js. This is a browser-based 3D dogfighting game where players can control aircraft and engage in aerial combat.
 
+## Features
+
+- Minecraft-style minimal graphics
+- Realistic WW2 Spitfire-style aircraft with:
+  - Elliptical wings
+  - Three-blade propeller
+  - Cockpit and engine details
+  - RAF roundels
+- Procedurally generated terrain with:
+  - Minecraft-style cube trees
+  - Randomly placed rivers
+- Third-person camera that follows the plane
+- Keyboard controls for flying the plane
+
 ## Project Structure
 
 The project is organized into separate frontend and (future) backend components:
@@ -40,6 +54,17 @@ cd frontend && npm run build
 # Preview the production build
 cd frontend && npm run preview
 ```
+
+## Controls
+
+- T: Increase speed
+- G: Decrease speed
+- Up Arrow: Pitch up
+- Down Arrow: Pitch down
+- Left Arrow: Roll left
+- Right Arrow: Roll right
+- Space: Fire bullets from wings
+- C: Fire rockets from wings
 
 ## Documentation
 

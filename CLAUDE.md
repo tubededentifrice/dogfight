@@ -16,9 +16,8 @@ cd frontend && npm run preview
 
 ## Project Structure
 - `/frontend/`: Frontend application
-  - `/src/js/`: JavaScript source files
-  - `/public/`: Static assets
-  - `/dist/`: Production build (generated)
+- `/frontend/src/js/`: JavaScript source files
+- `/dist/`: Production build (generated)
 
 ## Technology Stack
 - Three.js for 3D rendering
